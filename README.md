@@ -13,5 +13,9 @@ git remote add origin "remote repo url"  it'll add the remote repostiroy
 
 git remote set-url origin "remote repo url" it'll update the remote repo url
 
+.gitignore file understanding
 
+git restore command used to restore the changes before commit
 
+git revert command used to revert the changes after commit the changes. It keeps the histoy
+of committs.
