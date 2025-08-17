@@ -17,5 +17,15 @@ git remote set-url origin "remote repo url" it'll update the remote repo url
 
 git restore command used to restore the changes before commit
 
+git restore --staged used to restore staged files
+
 git revert command used to revert the changes after commit the changes. It keeps the histoy
 of committs.
+
+git log --online
+
+git reset --soft Head~1
+
+git reset --mixed Head~1 Undo the last commit and also unstage all the changes.
+
+git reset --hard Head~1   Undo the last commit and also removed all the changes from working dir. 
