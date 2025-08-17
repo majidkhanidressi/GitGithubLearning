@@ -22,10 +22,10 @@ git restore --staged used to restore staged files
 git revert command used to revert the changes after commit the changes. It keeps the histoy
 of committs.
 
-git log --online
+git log --online 
 
-git reset --soft Head~1
+git reset --soft Head~1 undo the last commit and also stage the all the changes of last commit.
 
-git reset --mixed Head~1 Undo the last commit and also unstage all the changes.
+git reset --mixed Head~1 Undo the last commit and also unstage all the changes of last commit.
 
-git reset --hard Head~1   Undo the last commit and also removed all the changes from working dir. 
+git reset --hard Head~1   Undo the last commit and also removed all the changes of last commit from working dir. 
