@@ -61,6 +61,12 @@ git clone remote repository url. it'll clone the main branch
 
 git clone --branch first remote repository url it'll clone the specific branch
 
+git fetch // fetch the changes from remote repository but did not mege it with current changes
+usually we used it check the current changes then merge it. 
+
+git pull // pull the changes from remote repositoyr and merge it with current changes.
+
+
 
 
 
