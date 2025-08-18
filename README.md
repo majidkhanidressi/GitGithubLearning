@@ -35,3 +35,18 @@ add alias for any command like [alias] st = status, here we created alias for gi
 Can also create it using git config --global alias.b branch
 
 For creating alias for current repo use it without --global git config alias.b branch
+
+Branch used to work in teams
+
+Git branch shows current branches
+
+We can create branches in 3 different ways
+Git branch second created the new branch with “second” name
+To switch branch git checkout second 
+Git switch main switch to main branch 
+
+Git checkout -b third used create branch and checkout the repo
+Git switch -c fourth create fourth branch and also switch it.
+
+To delete a branch use git branch -D second remove the second branch 
+To merge a branch use git merge third it’ll merge third branch in main
