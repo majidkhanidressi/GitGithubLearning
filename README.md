@@ -48,5 +48,5 @@ Git switch main switch to main branch
 Git checkout -b third used create branch and checkout the repo
 Git switch -c fourth create fourth branch and also switch it.
 
-To delete a branch use git branch -D second remove the second branch 
+To delete a branch use git branch -D second remove the second branch
 To merge a branch use git merge third it’ll merge third branch in main
