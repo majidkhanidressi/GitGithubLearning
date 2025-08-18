@@ -50,3 +50,6 @@ Git switch -c fourth create fourth branch and also switch it.
 
 To delete a branch use git branch -D second remove the second branch
 To merge a branch use git merge third it’ll merge third branch in main
+
+Amend in git use the amend the last commit
+git commit --amend -m "sdasf" will amend the last commit message.
