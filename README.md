@@ -28,4 +28,7 @@ git reset --soft Head~1 undo the last commit and also stage the all the changes 
 
 git reset --mixed Head~1 Undo the last commit and also unstage all the changes of last commit.
 
+Create local & global alias, 
+
+
 git reset --hard Head~1   Undo the last commit and also removed all the changes of last commit from working dir. 
