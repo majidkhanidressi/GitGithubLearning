@@ -28,7 +28,8 @@ git reset --soft Head~1 undo the last commit and also stage the all the changes 
 
 git reset --mixed Head~1 Undo the last commit and also unstage all the changes of last commit.
 
-Create local & global alias, 
-
-
 git reset --hard Head~1   Undo the last commit and also removed all the changes of last commit from working dir. 
+
+Create local & global alias, Open the .gitconfig file in user home directory using vi/nano editor and add alias 
+for any command like [alias] st = status, here we created alias for git status command
+
