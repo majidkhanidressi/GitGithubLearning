@@ -32,4 +32,6 @@ git reset --hard Head~1   Undo the last commit and also removed all the changes 
 
 Create local & global alias, Open the .gitconfig file in user home directory using vi/nano editor and add alias 
 for any command like [alias] st = status, here we created alias for git status command
+Can also create it using git config --global alias.b branch 
+For creating alias for current repo use it without --global git config alias.b branch
 
