@@ -52,9 +52,15 @@ To delete a branch use git branch -D second remove the second branch
 To merge a branch use git merge third it’ll merge third branch in main
 
 Amend in git use the amend the last commit
+
 git commit --amend -m "sdasf" will amend the last commit message.
+
 git clone command used to download the copy of remote repository.
+
 git clone remote repository url. it'll clone the main branch
+
 git clone --branch first remote repository url it'll clone the specific branch
+
+
 
 
