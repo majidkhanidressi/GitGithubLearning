@@ -66,6 +66,8 @@ usually we used it check the current changes then merge it.
 
 git pull // pull the changes from remote repositoyr and merge it with current changes.
 
+git diff // used to check the difference between two commits, different between local repo & remote repo.
+
 
 
 
