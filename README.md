@@ -1,6 +1,6 @@
 # GitGithubLearning
 
-Started learning git/github. Belo is the list of commands learned with some details
+Started learning git/github. Below is the list of commands learned with some details
 
 ## 1) Git Config
 git config is the command used to configure Git settings.
