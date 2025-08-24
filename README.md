@@ -2,16 +2,29 @@
 
 Started learning git/github. Belo is the list of commands learned with some details
 
-# Git Config
-This command is used to configure git settings like setting user name, email etc. 
+## 1) Git Config
+git config is the command used to configure Git settings.
+
+These settings can apply locally (just one repo), globally (all repos for your user), or system-wide (all users on a machine).
+
 For using this command we don't need any git repository. 
 Please rememober there are two types of git command
-- Commands which required git repositoyr
+- Commands which required git repository
 - Commands which do not required git repository
-  
-git config --global user.name 
 
-git config --global user.email
+### System (--system)
+- Applies to all users on the machine.
+- Stored in: /etc/gitconfig
+- git config --system user.name "John Doe"
+
+### Global (--global)
+- Applies to your user account.
+- Stored in: ~/.gitconfig (Linux/Mac) or C:\Users\<User>\.gitconfig (Windows).
+- git config --global user.name "John Doe"
+- git config --global user.email "john@example.com"
+- git config --global user.name // shows current user name
+- git config --global user.email // shows current user email
+
 
 git init command create new repostiry on local machine
 
