@@ -28,8 +28,8 @@ Please rememober there are two types of git command
 #### Local (default, no flag)
 - Applies only to the current repo.
 - Stored in: .git/config inside that repo.
-git config user.name "John Repo"
-git config user.email "repo@example.com"
+- git config user.name "John Repo"
+- git config user.email "repo@example.com"
 
 git init command create new repostiry on local machine
 
