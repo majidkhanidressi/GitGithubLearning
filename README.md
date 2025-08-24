@@ -1,8 +1,15 @@
 # GitGithubLearning
 
-Started learning git/github
+Started learning git/github. Belo is the list of commands learned with some details
 
-git config --global user.name
+# Git Config
+This command is used to configure git settings like setting user name, email etc. 
+For using this command we don't need any git repository. 
+Please rememober there are two types of git command
+- Commands which required git repositoyr
+- Commands which do not required git repository
+  
+git config --global user.name 
 
 git config --global user.email
 
