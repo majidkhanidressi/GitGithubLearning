@@ -31,7 +31,8 @@ Please rememober there are two types of git command
 - git config user.name "John Repo"
 - git config user.email "repo@example.com"
 
-git init command create new repostiry on local machine
+## 2) Git init
+- git init command create new repostiry on local machine
 
 git add .  commit add the changes in local repo to staging area
 
