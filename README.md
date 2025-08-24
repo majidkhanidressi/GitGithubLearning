@@ -2,6 +2,10 @@
 
 Started learning git/github
 
+git config --global user.name
+
+git config --global user.email
+
 git init command create new repostiry on local machine
 
 git add .  commit add the changes in local repo to staging area
