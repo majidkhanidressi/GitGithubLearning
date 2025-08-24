@@ -12,12 +12,12 @@ Please rememober there are two types of git command
 - Commands which required git repository
 - Commands which do not required git repository
 
-### System (--system)
+#### System (--system)
 - Applies to all users on the machine.
 - Stored in: /etc/gitconfig
 - git config --system user.name "John Doe"
 
-### Global (--global)
+#### Global (--global)
 - Applies to your user account.
 - Stored in: ~/.gitconfig (Linux/Mac) or C:\Users\<User>\.gitconfig (Windows).
 - git config --global user.name "John Doe"
@@ -25,6 +25,11 @@ Please rememober there are two types of git command
 - git config --global user.name // shows current user name
 - git config --global user.email // shows current user email
 
+#### Local (default, no flag)
+- Applies only to the current repo.
+- Stored in: .git/config inside that repo.
+git config user.name "John Repo"
+git config user.email "repo@example.com"
 
 git init command create new repostiry on local machine
 
